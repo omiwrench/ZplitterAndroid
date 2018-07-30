@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+               android:transitionOrdering="together">
+    <!-- Header + status bar -->
+    <transitionSet>
+        <slide android:slideEdge="top"
+               android:duration="300">
+            <targets>
+                <target android:targetId="@android:id/statusBarBackground"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="top"
+               android:duration="500"
+               android:startDelay="100"
+               android:interpolator="@android:interpolator/decelerate_cubic">
+            <targets>
+                <target android:targetId="@id/header_background"/>
+            </targets>
+        </slide>
+    </transitionSet>
+    <!-- Other content -->
+    <transitionSet>
+        <slide android:slideEdge="right">
+            <targets>
+                <target android:targetId="@id/avatar_container"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="right"
+               android:startDelay="100">
+            <targets>
+                <target android:targetId="@id/inputs_names_container"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="right"
+               android:startDelay="200">
+            <targets>
+                <target android:targetId="@id/inputs_info_container"/>
+            </targets>
+        </slide>
+    </transitionSet>
+    <fade>
+        <targets>
+            <target android:excludeId="@id/header_background"/>
+        </targets>
+    </fade>
+</transitionSet>

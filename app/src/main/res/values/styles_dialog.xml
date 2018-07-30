@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FacebookProgressDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:bottomBright">@color/facebook</item>
+        <item name="android:bottomDark">@color/facebook</item>
+        <item name="android:bottomMedium">@color/facebook</item>
+        <item name="android:centerBright">@color/facebook</item>
+        <item name="android:centerDark">@color/facebook</item>
+        <item name="android:centerMedium">@color/facebook</item>
+        <item name="android:fullBright">@color/facebook</item>
+        <item name="android:fullDark">@color/facebook</item>
+        <item name="android:topBright">@color/facebook</item>
+        <item name="android:topDark">@color/facebook</item>
+    </style>
+    <style name="FacebookDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:alertDialogStyle">@style/FacebookProgressDialogStyle</item>
+        <item name="android:background">@color/facebook</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+</resources>

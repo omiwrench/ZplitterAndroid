@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/white"/>
+                    <size android:height="@dimen/profile_create_picture_size"
+                          android:width="@dimen/profile_create_picture_size"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorAccent"/>
+                    <size android:height="@dimen/profile_create_picture_size"
+                          android:width="@dimen/profile_create_picture_size"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <bitmap android:src="@drawable/ic_face_accent_48dp"
+                        android:gravity="center"/>
+            </item>
+            <item>
+                <bitmap android:src="@drawable/ic_face_white_48dp"
+                        android:gravity="center"/>
+            </item>
+        </selector>
+    </item>
+</layer-list>

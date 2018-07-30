@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">433098090222354</string>
+    <string-array name="facebook_permissions">
+        <item>email</item>
+        <item>public_profile</item>
+        <item>user_birthday</item>
+    </string-array>
+</resources>

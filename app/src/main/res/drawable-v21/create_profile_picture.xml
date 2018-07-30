@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@android:color/white">
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorAccent"/>
+            <size android:height="@dimen/profile_create_picture_size"
+                  android:width="@dimen/profile_create_picture_size"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorAccent"/>
+            <size android:height="@dimen/profile_create_picture_size"
+                  android:width="@dimen/profile_create_picture_size"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_face_white_48dp"
+                android:gravity="center"/>
+    </item>
+</ripple>

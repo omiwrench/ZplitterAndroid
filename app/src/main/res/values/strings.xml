@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Zplitter</string>
+
+    <string name="accept_terms">I agree to the terms and services</string>
+
+    <string name="profile_create_header">Create your profile</string>
+    <string name="profile_create_age_prefix">I\'m a </string>
+    <string name="profile_create_age_prefix_vowel">I\'m an</string>
+    <string name="profile_create_year_old"> year old</string>
+    <string name="profile_create_default_age">20</string>
+
+    <string name="button_login">Sign in</string>
+    <string name="button_register">Sign up</string>
+
+    <string name="gender_spinner_male">Guy</string>
+    <string name="gender_spinner_female">Girl</string>
+    <string name="gender_spinner_other">Other</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

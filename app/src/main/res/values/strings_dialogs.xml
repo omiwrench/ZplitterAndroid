@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_profile_create_cancel_title">Discard profile creation?</string>
+    <string name="dialog_profile_create_cancel_message">You\'ll have to create a profile the next time you log in.</string>
+    <string name="dialog_profile_create_cancel_button_positive">Discard</string>
+    <string name="dialog_profile_create_cancel_button_negative">Cancel</string>
+
+    <string name="dialog.profile.create.avatar.failed.title">Profile pic upload failed</string>
+    <string name="dialog.profile.create.avatar.failed.message">Continue anyway?</string>
+    <string name="dialog.profile.create.avatar.button.positive">OK</string>
+    <string name="dialog.profile.create.avatar.button.negative">Try again</string>
+
+    <string name="dialog.profile.create.loading.title">One sec...</string>
+    <string name="dialog.profile.create.loading.message">Uploading your profile</string>
+</resources>

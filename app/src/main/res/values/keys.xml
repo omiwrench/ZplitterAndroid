@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_pref_file_key">com.noza.zplitter.USER_PREFERENCE_KEY</string>
+    <string name="user_id_key">user_id</string>
+    <string name="user_email_key">user_email</string>
+    <string name="user_first_name_key">user_first_name</string>
+    <string name="user_last_name_key">user_last_name</string>
+    <string name="user_gender_key">user_gender</string>
+    <string name="user_age_key">user_age</string>
+
+    <string name="auth_pref_file_key">com.noza.zplitter.AUTH_PREFERENCE_KEY</string>
+    <string name="token_key">token</string>
+</resources>

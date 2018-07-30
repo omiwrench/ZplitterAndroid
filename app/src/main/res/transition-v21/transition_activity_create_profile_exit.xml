@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+               android:transitionOrdering="together">
+    <!-- Header + status bar -->
+    <transitionSet>
+        <slide android:slideEdge="top"
+               android:duration="500"
+               android:interpolator="@android:interpolator/accelerate_cubic">
+            <targets>
+                <target android:targetId="@id/header_background"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="top"
+               android:duration="300"
+               android:startDelay="250">
+            <targets>
+                <target android:targetId="@android:id/statusBarBackground"/>
+            </targets>
+        </slide>
+    </transitionSet>
+    <!-- Other content -->
+    <transitionSet android:interpolator="@android:interpolator/accelerate_quad">
+        <slide android:slideEdge="bottom"
+               android:startDelay="100">
+            <targets>
+                <target android:targetId="@id/inputs_info_container"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="bottom"
+               android:startDelay="150">
+            <targets>
+                <target android:targetId="@id/inputs_names_container"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="bottom"
+               android:startDelay="200">
+            <targets>
+                <target android:targetId="@id/avatar_container"/>
+            </targets>
+        </slide>
+    </transitionSet>
+    <fade android:startDelay="200">
+        <targets>
+            <target android:excludeId="@id/header_background"/>
+        </targets>
+    </fade>
+</transitionSet>

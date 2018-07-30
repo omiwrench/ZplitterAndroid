@@ -1,0 +1,56 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CreateProfileTheme" parent="AppTheme"/>
+
+    <style name="LoginTabsLayoutTheme" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/LoginTabTheme</item>
+    </style>
+    <style name="LoginTabTheme" parent="TextAppearance.Design.Tab">
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="LoginViewPageContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="LoginViewPageSubContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/activity_login_margin</item>
+        <item name="android:paddingTop">@dimen/fragment_login_padding_top</item>
+    </style>
+
+    <style name="HeaderContainer16_9">
+        <item name="layout_aspectRatio">178%</item>
+        <item name="layout_widthPercent">100%</item>
+        <item name="android:padding">32dp</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

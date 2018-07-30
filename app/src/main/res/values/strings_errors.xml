@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error.general.unknown">An unknown error occurred.</string>
+    <string name="error.general.no.internet">No internet connection detected.</string>
+    <string name="error.general.no.network.response">No network response.</string>
+
+    <string name="error.auth.missing.email">Enter your email.</string>
+    <string name="error.auth.missing.password">Enter your password.</string>
+    <string name="error.auth.invalid">Email and password does not match</string>
+
+    <string name="error.register.email.taken">Email already taken.</string>
+    <string name="error.register.email.invalid">Enter a valid email.</string>
+    <string name="error.register.email.missing">Enter your email.</string>
+    <string name="error.register.password.missing">Enter a password.</string>
+    <string name="error.register.password.too.short">Password must be at least 6 characters.</string>
+    <string name="error.register.accept.terms">Accept terms and conditions to continue.</string>
+
+    <string name="error.createprofile.firstname.missing">Please enter your first name.</string>
+    <string name="error.createprofile.lastname.missing">Please enter your last name.</string>
+    <string name="error.createprofile.age.missing">Please enter your age.</string>
+    <string name="error.createprofile.age.too.old">Please enter a valid age.</string>
+    <string name="error.createprofile.age.too.young">You must be 13 years or older to use Zplitter.</string>
+    <string name="error.createprofile.avatar.error">Something went wrong.</string>
+</resources>
